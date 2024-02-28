@@ -6,7 +6,13 @@ let f1 = true;
 let f2 = false;
 let counter = 0;
 let slider;
-let order = ["bird Y poz", "closes pipe X poz", "closes pipe botton poz", "closes pipe top poz", "bird Y vel"];
+let order = [
+  "Y coordinate of the bird",
+  "X coordinate of the closes pipe",
+  "bottom Y coordinate of the closes pipe opening",
+  "top Y coordinate of the closes pipe opening",
+  "Y velocity of the bird",
+];
 
 let socket = io.connect("http://localhost:2000");
 socket.emit("c");

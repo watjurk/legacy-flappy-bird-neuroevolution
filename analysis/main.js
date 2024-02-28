@@ -85,7 +85,7 @@ function update(data) {
             textSize(20)
             textAlign(CENTER, CENTER)
             fill(0, 255, 0)
-            text(data.o[j], lastPoz[i].x - 150, lastPoz[i].y)
+            text(data.o[j], lastPoz[i].x - ((data.o[j].length * 5.2)+10), lastPoz[i].y)
             pop()
         }
         if(lastPoz[Number(i)+1] == undefined) {
