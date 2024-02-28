@@ -14,7 +14,7 @@ let order = [
   "Y velocity of the bird",
 ];
 
-let socket = io.connect("http://localhost:2000");
+let socket = io.connect("http://localhost:8080");
 socket.emit("c");
 
 let bestEver = {

@@ -5,7 +5,7 @@ const io = require('socket.io').listen(server);
 
 let OPT = {}
 
-server.listen(2000, () => {
+server.listen(8080, () => {
     console.log('listening on ' + server.address().port);
 });
 
