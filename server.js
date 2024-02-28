@@ -10,13 +10,13 @@ server.listen(2000, () => {
 });
 
 app.use('/client', express.static(__dirname + '/client'))
-app.use('/analisc', express.static(__dirname + '/analisc'))
+app.use('/analysis', express.static(__dirname + '/analysis'))
 
 app.get('/c', (req, res) => {
     res.sendFile(__dirname + '/client/');
 });
 app.get('/a', (req, res) => {
-    res.sendFile(__dirname + '/analisc/');
+    res.sendFile(__dirname + '/analysis/');
 });
 
 io.on('connection', (socket) => {
