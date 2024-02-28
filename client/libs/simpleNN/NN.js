@@ -1,3 +1,6 @@
+// MIT License
+// Copyright (c) 2019-present, Wiktor Jurkiewicz
+
 class NeuralNetwork {
     constructor(cf, err) {
 
