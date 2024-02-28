@@ -5,7 +5,7 @@ let dd
 let WTmove = 0
 
 function setup() {
-    createCanvas(2000, 2000)
+    createCanvas(1920, 1300);
     background(0)
     socket.on('opt', (data) => {
         dd = data
