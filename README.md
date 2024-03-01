@@ -6,7 +6,7 @@ This project does not use any external neural-network libraries. I am the sole c
 
 The Flappy Bird game engine code is adapted from the [Coding Challenge #31: Flappy Bird](https://www.youtube.com/watch?v=cXgA1d_E-jY).
 
-Inspired by [The Coding Train: Coding Challenge #100: Neuroevolution Flappy Bird](https://www.youtube.com/watch?v=c6y21FkaUqw).
+Project inspired by [The Coding Train: Coding Challenge #100: Neuroevolution Flappy Bird](https://www.youtube.com/watch?v=c6y21FkaUqw).
 
 ## Usage
 
@@ -19,7 +19,7 @@ $ npm install
 ### 1. Start the server
 
 ```console
-$ node ./server.js
+$ npm run start
 ```
 
 ### 2. Open the analysis page: [localhost:8080/a](http://localhost:8080/a)
@@ -28,7 +28,7 @@ $ node ./server.js
 
 ### 4. Spectate the learning process!
 
-## Features - Analysis page
+## Features: Analysis page
 
 ### Neural network
 
@@ -42,7 +42,7 @@ By **pressing any key** You can **toggle the display of the numerical value** of
 
 By **pressing `a` or `d`** You can **move the displayed value right or left** respectively.
 
-## Features - Game
+## Features: Game
 
 ### Speed control
 
@@ -52,12 +52,18 @@ On the bottom right of the game window there is a slider that You can use to spe
 
 The game will get laggy after increasing the speed. You can **press any key** to **toggle rendering**, in order to speed up neuroevolution.
 
-## History
-
--- TODO --
-
-## Status
+## Project Status
 
 This is a legacy project of mine. I decided to publish it to share my story and inspire others. I do not plan to improve or modify it. No contributions will be accepted.
+
+## History and Motivation
+
+This section will be very personal, but I feel that without it the whole story would be incomplete.
+
+This project was created in early 2019, the second semester of my 8th primary school grade, while I was 14 years old. I know that this code is a spaghetti, even I don't understand all of it, but taking into account my age at the time of writing it, I am proud of what I created: a neuroevolution algorithm without any neural-network libraries, in pure JS.
+
+The commits that You see on github are myself trying to make this code runnable and preparing it for publication. No other changes to the original source were or will be made.
+
+I decided to publish this project because I am proud of it. It shows that no matter Your age, with the right amount of curiosity You can achieve anything!
 
 Thanks for sticking around, stay curious!
