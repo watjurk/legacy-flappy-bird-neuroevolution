@@ -1,14 +1,12 @@
 {
-  "name": "flappy-bird",
+  "name": "legacy-flappy-bird-neuroevolution",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "author": "Wiktor Jurkiewicz",
+  "license": "MIT",
+  "description": "A Flappy Bird clone, which uses neuroevolution to train agents.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./src/server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "socketio": "^1.0.0"
