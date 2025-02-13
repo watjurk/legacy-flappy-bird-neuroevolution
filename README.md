@@ -13,7 +13,7 @@ Project inspired by [The Coding Train: Coding Challenge #100: Neuroevolution Fla
 ### 0. Install dependencies
 
 ```console
-$ npm install
+$ npm clean-install
 ```
 
 ### 1. Start the server
